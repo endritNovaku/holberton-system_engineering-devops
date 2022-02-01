@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM.00 | tr "." "\n" | head -n 2 |tr "\n" "." | rev | cut -c2- |rev
+echo $NUM.00 | grep -o "..\..." | head -n 1
