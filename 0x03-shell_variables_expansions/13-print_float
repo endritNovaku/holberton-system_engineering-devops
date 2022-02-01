@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM.00 | grep -o "..\..." | head -n 1
+echo $NUM.00 | grep -o -e "..\..." -e ".\..." | head -n 1
