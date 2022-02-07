@@ -1,1 +1,1 @@
-Projects Shell bassics
+Projects for Shell bassics
