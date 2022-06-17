@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display lines that contain grep
+ps aux | grep bash
+# shellcheck disable=SC2009
