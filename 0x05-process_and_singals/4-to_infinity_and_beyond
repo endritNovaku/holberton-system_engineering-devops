@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# infinite loop printing to infinity and beyond
+# with 2 sec deleay from each iteration
+i=0
+while [ $i -le 10 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
